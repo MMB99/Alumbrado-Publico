@@ -16,6 +16,7 @@ skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infra
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-luminaria/artisticaconreflector>
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-luminaria/viariacierrepolicarbonato>
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-luminaria/viariacierrevidrioplano>
+prov:hadPrimarySource <https://www.opendatalapalma.es/datasets/e715be8fec6f4fd3b671f4592f8a209c_0/explore?location=28.665278%2C-17.862285%2C11.31&showTable=true>
 
 
 <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-luminaria/proyector> a skos:concept;
