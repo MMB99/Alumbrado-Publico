@@ -3,7 +3,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSSchema#> 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> 
 @prefix dct: <https://purl.org/dc/terms/>
-@prefix skoslight: <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara> .
+@prefix skoslight: <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara> 
+
 
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestruxturas/alumbrado-publico/tipo-lampara> a skos:ConceptScheme;
 rdfs:label "Tipos de lámpara de alumbrado público";
@@ -18,6 +19,7 @@ skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infra
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara/mastercolour>
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara/fluorescente>
 skos:hasTopConcept <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara/halogenoincandescente>
+prov:hadPrimarySource <https://www.opendatalapalma.es/datasets/e715be8fec6f4fd3b671f4592f8a209c_0/explore?location=28.665278%2C-17.862285%2C11.31&showTable=true>
 
 
 <http://vocab.linkeddata,es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara/bombillocomun> a skos:concept;
