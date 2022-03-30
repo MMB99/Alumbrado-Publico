@@ -3,7 +3,7 @@
 Este repositorio contiene el material relacionado con el vocabulario actualizado sobre la descripción del alumbrado público que se publica:
 http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html
 
-#Diagrama
+# Diagrama
 Para la realización del diagrama se ha utilizada la plantila de chowlk y está subido en formato .drawio y .xml
 https://chowlk.linkeddata.es/
 
