@@ -4,7 +4,7 @@ Este repositorio contiene el material relacionado con el vocabulario actualizado
 http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html
 
 # Diagrama
-Para la realización del diagrama se ha utilizada la plantila de chowlk y está subido en formato .drawio y .xml
+Para la realización del diagrama se ha utilizada la plantila de chowlk:  
 https://chowlk.linkeddata.es/
 
 # Ejemplos para la realización de las listas SKOS
