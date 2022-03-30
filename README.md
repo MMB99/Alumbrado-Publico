@@ -1,11 +1,11 @@
 # Alumbrado-Público
 
 Este repositorio contiene el material relacionado con el vocabulario actualizado sobre la descripción del alumbrado público que se publica:
-http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html
+- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html
 
 # Diagrama
 Para la realización del diagrama se ha utilizada la plantila de chowlk:  
-https://chowlk.linkeddata.es/
+- https://chowlk.linkeddata.es/
 
 # Ejemplos para la realización de las listas SKOS
 
