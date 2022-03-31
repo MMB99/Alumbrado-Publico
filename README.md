@@ -1,6 +1,6 @@
 # Alumbrado-Público
 
-Este repositorio contiene el material relacionado con el vocabulario actualizado sobre la descripción del alumbrado público que se publica:
+Este repositorio contiene el material relacionado con el vocabulario actualizado sobre la descripción del alumbrado público que se publica en:
 - http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html
 
 # Diagrama
