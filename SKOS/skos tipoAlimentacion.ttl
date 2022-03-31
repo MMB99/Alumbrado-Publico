@@ -13,17 +13,17 @@ skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infra
 skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/fachada>;
 
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/subterranea> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/subterranea> a skos:Concept;
 skos:notation "Subterránea"
 skos:prefLabel "Subterránea"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion>
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/aerea> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/aerea> a skos:Concept;
 skos:notation "Aérea"
 skos:prefLabel "Aérea"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestruxturas/alumbrado-publico/tipo-alimentacion>
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/fachada> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-alimentacion/fachada> a skos:Concept;
 skos:notation "Fachada"
 skos:prefLabel "Fachada"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestruxturas/alumbrado-publico/tipo-alimentacion>

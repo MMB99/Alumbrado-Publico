@@ -13,17 +13,17 @@ skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infra
 skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/paredada>
 
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/unilateral> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/unilateral> a skos:Concept;
 skos:notation "Unilateral"
 skos:prefLabel "Unilateral"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion>
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/tresbolillo> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/tresbolillo> a skos:Concept;
 skos:notation "Tresbolillo"
 skos:prefLabel "Tresbolillo"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion>
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/paredada> a skos:concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion/paredada> a skos:Concept;
 skos:notation "Paredada"
 skos:prefLabel "Paredada"
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-disposicion> 
