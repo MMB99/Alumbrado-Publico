@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="Electron" modified="2022-03-31T11:13:20.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.2.4 Chrome/96.0.4664.174 Electron/16.1.0 Safari/537.36" etag="xjT9TEJlMcvf8n04xC3V" version="17.2.4" type="device">
+<mxfile host="Electron" modified="2022-04-01T15:37:20.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.2.4 Chrome/96.0.4664.174 Electron/16.1.0 Safari/537.36" etag="Lkr-_C52LlX8buTojXXG" version="17.2.4" type="device">
   <diagram id="e428gesRJKgHhVkrDnYT" name="Página-2">
-    <mxGraphModel dx="3784" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2932" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gFt_EBzvBKmSdwnH_T5e-0" />
         <mxCell id="gFt_EBzvBKmSdwnH_T5e-1" parent="gFt_EBzvBKmSdwnH_T5e-0" />
@@ -11,7 +11,7 @@
         <mxCell id="wOGgkQfPhAHRgsVjdHP_-1" value="esalumb:Farola" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#2DE3E3;" parent="gFt_EBzvBKmSdwnH_T5e-1" vertex="1">
           <mxGeometry x="-110" y="460" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wOGgkQfPhAHRgsVjdHP_-3" value="esalumb:TipoVia:xsd::string&lt;br&gt;esalumb: Distrito:xsd::string&lt;br&gt;esalumb: Barrio:xsd::string&lt;br&gt;esalumb: Calle:xsd::string&lt;br&gt;esalumb:Zona:xsd::string&lt;br&gt;esalumb:Diposición:xsd::string&lt;br&gt;esalumb:Interdistancia:xsd::string" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="gFt_EBzvBKmSdwnH_T5e-1" vertex="1">
+        <mxCell id="wOGgkQfPhAHRgsVjdHP_-3" value="esalumb:tipoVia:xsd::string&lt;br&gt;esalumb: distrito:xsd::string&lt;br&gt;esalumb: barrio:xsd::string&lt;br&gt;esalumb: calle:xsd::string&lt;br&gt;esalumb:zona:xsd::string&lt;br&gt;esalumb:diposición:xsd::string&lt;br&gt;esalumb:interdistancia:xsd::string" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="gFt_EBzvBKmSdwnH_T5e-1" vertex="1">
           <mxGeometry x="480" y="477.5" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="wOGgkQfPhAHRgsVjdHP_-4" value="esalumb: Ubicación" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#2DE3E3;" parent="gFt_EBzvBKmSdwnH_T5e-1" vertex="1">
