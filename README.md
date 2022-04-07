@@ -8,7 +8,7 @@ Para la realización del diagrama se ha utilizado la plantila de chowlk:
 - https://chowlk.linkeddata.es/
 
 # Ontología
-Para la realización de la ontología se han usado las sihuientes herramientas:
+Para la realización de la ontología se han usado las siguientes herramientas:
 - WIDOCO 
      - https://github.com/dgarijo/Widoco
 - Protégé
