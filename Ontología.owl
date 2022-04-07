@@ -37,6 +37,8 @@
 esalumb:caja rdf:type owl:ObjectProperty ;
              rdfs:domain esalumb:Farola ;
              rdfs:range esalumb:Caja ;
+             rdfs:comment "Cada farola puede tener una caja"@es ,
+                          "Every streetlight can have a box"@en ;
              rdfs:label "box"@en ,
                         "caja"@es .
 
@@ -45,6 +47,8 @@ esalumb:caja rdf:type owl:ObjectProperty ;
 esalumb:luminaria rdf:type owl:ObjectProperty ;
                   rdfs:domain esalumb:Farola ;
                   rdfs:range esalumb:Luminaria ;
+                  rdfs:comment "Cada farola puede tener de una a varias luminarias"@es ,
+                               "Every streetlight can have from one luminary to various of them"@en ;
                   rdfs:label "luminaria"@es ,
                              "luminary"@en .
 
@@ -53,8 +57,19 @@ esalumb:luminaria rdf:type owl:ObjectProperty ;
 esalumb:poste rdf:type owl:ObjectProperty ;
               rdfs:domain esalumb:Farola ;
               rdfs:range esalumb:Poste ;
+              rdfs:comment "Cada farola puede tener un poste"@es ,
+                           "Every streetlight can have a pole"@en ;
               rdfs:label "pole"@en ,
                          "poste"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneLampara
+esalumb:tieneLampara rdf:type owl:ObjectProperty ;
+                     rdfs:domain esalumb:Luminaria ;
+                     rdfs:range esalumb:Lampara ;
+                     rdfs:comment "Cada luminaria tiene una lámpara"@es ,
+                                  "Every luminary has a bulb"@en ;
+                     rdfs:label "tieneLampara"@es .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tipoAlimentacion
@@ -478,7 +493,8 @@ geosparql:Feature rdf:type owl:Class ;
 ###  http://www.opengis.net/spec/geosparql/Geometry
 geosparql:Geometry rdf:type owl:Class ;
                    rdfs:subClassOf geosparql:Point ;
-                   rdfs:comment "Geometry represents the top level geometry type."@en .
+                   rdfs:comment "Geometry representa el nivel más alto del tipo geometry"@es ,
+                                "Geometry represents the top level geometry type."@en .
 
 
 ###  http://www.opengis.net/spec/geosparql/Point
@@ -556,13 +572,40 @@ esalumb:tipoSoporte rdf:type owl:NamedIndividual ,
 #    Annotations
 #################################################################
 
-esalumb:tipoDisposicion rdfs:comment "Determina el tipo de disposición entre las farolas"@es .
+esalumb:tipoAlimentacion rdfs:comment "Link to the skos list that determines what type of sorce has a streetlight"@en ,
+                                      "Enlace a la lista skos que determina que tipo de alimentación tienen las farolas"@es .
 
 
-esalumb:tipoLampara rdfs:comment "Enlace a la lista skos que determina el tipo de bombilla que se utiliza en la farola"@es .
+esalumb:tipoAlumbrado rdfs:comment "Enlace a la lista skos que determina que tipo de alumbrado tienen las farolas"@es ,
+                                   "Link to the skos list that determines what type of lighting has a streetlight"@en .
 
 
-esalumb:tipoSoporte rdfs:comment "Enlace a la lista skos que determina que tipo de soporte tienen las farolas"@es .
+esalumb:tipoCable rdfs:comment "Link to the skos list that determines what type of cable has a streetlight"@en ,
+                               "Enlace a la lista skos que determina que tipo de cable tienen las farolas"@es .
+
+
+esalumb:tipoCaja rdfs:comment "Link to the skos list that determines what type of box has a streetlight"@en ,
+                              "Enlace a la lista skos que determina que tipo de caja tienen las farolas"@es .
+
+
+esalumb:tipoDisposicion rdfs:comment "Enlace a la lista skos que determina que tipo de disposición tienen las farolas"@es ,
+                                     "Link to the skos list that determines what type of disposition has a streetlight"@en .
+
+
+esalumb:tipoIluminacion rdfs:comment "Enlace a la lista skos que determina el tipo de iluminación que se utiliza en la farola"@es ,
+                                     "Link to the skos list that determines what type of ilumination has a streetlight"@en .
+
+
+esalumb:tipoLampara rdfs:comment "Enlace a la lista skos que determina el tipo de bombilla que se utiliza en la farola"@es ,
+                                 "Link to the skos list that determines what type of bulb has a streetlight"@en .
+
+
+esalumb:tipoLuminaria rdfs:comment "Link to the skos list that determines what type of luminary has the streetlight"@en ,
+                                   "Enlace a la lista skos que determina que tipo de Luminaria tienen las farolas"@es .
+
+
+esalumb:tipoSoporte rdfs:comment "Link to the skos list that determines what type of pole has a streetlight"@en ,
+                                 "Enlace a la lista skos que determina que tipo de soporte tienen las farolas"@es .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
