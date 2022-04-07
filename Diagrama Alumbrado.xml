@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="Electron" modified="2022-04-01T15:37:20.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.2.4 Chrome/96.0.4664.174 Electron/16.1.0 Safari/537.36" etag="Lkr-_C52LlX8buTojXXG" version="17.2.4" type="device">
+<mxfile host="Electron" modified="2022-04-07T17:08:12.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.2.4 Chrome/96.0.4664.174 Electron/16.1.0 Safari/537.36" etag="V_9X-pg87mVSfhc_8aUm" version="17.2.4" type="device">
   <diagram id="e428gesRJKgHhVkrDnYT" name="Página-2">
     <mxGraphModel dx="2932" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
             <mxPoint x="97" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bHKJgjvmhFTb6MqbkRUl-6" value="luminaria (1..1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bHKJgjvmhFTb6MqbkRUl-4" vertex="1" connectable="0">
+        <mxCell id="bHKJgjvmhFTb6MqbkRUl-6" value="luminaria (1..N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bHKJgjvmhFTb6MqbkRUl-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1188" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
