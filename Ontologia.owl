@@ -7,7 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico"
      versionIRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/index-en.html/1">
-    <Prefix name="" IRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#"/>
+    <Prefix name="" IRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -823,12 +823,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#caja</IRI>
-        <Literal xml:lang="es">Cada farola puede tener una caja</Literal>
+        <Literal xml:lang="es">Relación entre la clase Farola y la clase Caja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#caja</IRI>
-        <Literal xml:lang="en">Every streetlight can have a box</Literal>
+        <Literal xml:lang="en">Relation between the Streetlight class and the Box class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -859,6 +859,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#consumo</IRI>
         <Literal xml:lang="es">consumo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#disposicion</IRI>
+        <Literal xml:lang="es">disposicion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#disposicion</IRI>
+        <Literal xml:lang="en">disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -961,6 +971,16 @@
         <Literal xml:lang="en">workingHours</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#id</IRI>
+        <Literal xml:lang="es">Identificador de la farola</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#id</IRI>
+        <Literal xml:lang="en">Identifier for the streetlight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#id</IRI>
         <Literal xml:lang="en">id</Literal>
@@ -1003,12 +1023,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#luminaria</IRI>
-        <Literal xml:lang="es">Cada farola puede tener de una a varias luminarias</Literal>
+        <Literal xml:lang="es">Relación entre la clase Farola y la clase Poste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#luminaria</IRI>
-        <Literal xml:lang="en">Every streetlight can have from one luminary to various of them</Literal>
+        <Literal xml:lang="en">Relation between the Streetlight class and the Luminary class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1073,12 +1093,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#poste</IRI>
-        <Literal xml:lang="es">Cada farola puede tener un poste</Literal>
+        <Literal xml:lang="es">Relación entre la clase Farola y la clase Poste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#poste</IRI>
-        <Literal xml:lang="en">Every streetlight can have a pole</Literal>
+        <Literal xml:lang="en">Relation between the Streetlighr class and the Pole class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1113,17 +1133,182 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#tieneLampara</IRI>
-        <Literal xml:lang="es">Cada luminaria tiene una lámpara</Literal>
+        <Literal xml:lang="es">Relación entre la clase Luminaria y la clase Lámpara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#tieneLampara</IRI>
-        <Literal xml:lang="en">Every luminary has a bulb</Literal>
+        <Literal xml:lang="en">Relation between the Luminary class and the Lamp class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneLampara</IRI>
+        <Literal xml:lang="en">hasLamp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#tieneLampara</IRI>
         <Literal xml:lang="es">tieneLampara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoAlimentacion</IRI>
+        <Literal xml:lang="es">Relación entre la clase farola y la lista skos sobre el tipo de alimentación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoAlimentacion</IRI>
+        <Literal xml:lang="en">Relation between the streetlight class and the type of power skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoAlimentacion</IRI>
+        <Literal xml:lang="en">hasPower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoAlimentacion</IRI>
+        <Literal xml:lang="es">tieneAlimentacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoAlumbrado</IRI>
+        <Literal xml:lang="es">Relación entre la farola y la lista skos sobre el tipo de alumbrado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoAlumbrado</IRI>
+        <Literal xml:lang="en">Relation between the strettlight and the lighting skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoAlumbrado</IRI>
+        <Literal xml:lang="en">hasLighting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoAlumbrado</IRI>
+        <Literal xml:lang="es">tieneAlumbrado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoCable</IRI>
+        <Literal xml:lang="es">Relación entre la clase Caja y la lista skos sobre los tipos de cables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoCable</IRI>
+        <Literal xml:lang="en">Relation between the Box class and the type of cable skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoCable</IRI>
+        <Literal xml:lang="en">cableType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoCable</IRI>
+        <Literal xml:lang="es">tipoCable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoDisposicion</IRI>
+        <Literal xml:lang="es">Relación entre la clase ubicación y la lista skos sobre el tipo de disposición</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoDisposicion</IRI>
+        <Literal xml:lang="en">Relation between the Disposition class and the disposition skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoDisposicion</IRI>
+        <Literal xml:lang="en">hasDisposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoDisposicion</IRI>
+        <Literal xml:lang="es">tieneDisposicion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoIluminacion</IRI>
+        <Literal xml:lang="es">Relación entre la clase Farola y la lista skos sobre el tipo de iluminación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoIluminacion</IRI>
+        <Literal xml:lang="en">Relation between the Streetlight class and the type of ilumination skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoIluminacion</IRI>
+        <Literal xml:lang="en">iluminationType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoIluminacion</IRI>
+        <Literal xml:lang="es">tipoIluminacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoLampara</IRI>
+        <Literal xml:lang="es">Relación entre las clase Lámpara y la lista skos sobre el tipo de lámparas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoLampara</IRI>
+        <Literal xml:lang="en">Relation between the Lamp class and the type of lamp skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoLampara</IRI>
+        <Literal xml:lang="en">lampType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoLampara</IRI>
+        <Literal xml:lang="es">tipoLampara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoLuminaria</IRI>
+        <Literal xml:lang="es">Relación entre la clase Luminaria y la lista skos sobre el tipo de luminarias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoLuminaria</IRI>
+        <Literal xml:lang="en">Relation between the Luminary class and the type os Luminaries skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoLuminaria</IRI>
+        <Literal xml:lang="en">luminaryType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoLuminaria</IRI>
+        <Literal xml:lang="es">tipoLuminaria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoSoporte</IRI>
+        <Literal xml:lang="es">Relación entre la clase Poste y la lista skos sobre los tipos de postes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoSoporte</IRI>
+        <Literal xml:lang="en">Relation between the Pole class and the  type of holder skos list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoSoporte</IRI>
+        <Literal xml:lang="en">holderType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoSoporte</IRI>
+        <Literal xml:lang="es">tipoSoporte</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1134,6 +1319,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#tipoVia</IRI>
         <Literal xml:lang="en">venueType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ubicacion</IRI>
+        <Literal xml:lang="es">Relación entre la clase Farola y la clase Ubicación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ubicacion</IRI>
+        <Literal xml:lang="en">Relation between the Streetlight class and the Location class</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1331,6 +1526,11 @@
         <Literal xml:lang="es">tipoSoporte</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.opengis.net/spec/geosparql#Longitude</IRI>
+        <Literal xml:lang="es">Longitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.opengis.net/spec/geosparql#Longitude</IRI>
         <Literal xml:lang="en">Longitude</Literal>
@@ -1356,6 +1556,11 @@
         <Literal xml:lang="en">Geometry represents the top level geometry type.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>geosparql:Latitude</AbbreviatedIRI>
+        <Literal xml:lang="es">Latitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>geosparql:Latitude</AbbreviatedIRI>
         <Literal xml:lang="en">Latitude</Literal>
@@ -1370,6 +1575,26 @@
         <AbbreviatedIRI>geosparql:SpatialObject</AbbreviatedIRI>
         <Literal xml:lang="en">Spatial Object represents everything that can
 have a spatial representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>geosparql:hasGeometry</AbbreviatedIRI>
+        <Literal xml:lang="es">Relación entre la clase Feature y la clase Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>geosparql:hasGeometry</AbbreviatedIRI>
+        <Literal xml:lang="en">Relation between the Feature class and the Geometry class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>geosparql:hasGeometry</AbbreviatedIRI>
+        <Literal xml:lang="en">hasGeometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>geosparql:hasGeometry</AbbreviatedIRI>
+        <Literal xml:lang="es">hasGeometry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
